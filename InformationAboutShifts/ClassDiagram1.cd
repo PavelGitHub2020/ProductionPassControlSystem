@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InformationAboutShifts.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AGVDQCAAADAEABCAAAAIAQBC0IEgCkIFAAIApkABAiQ=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InformationAboutShifts.InformationAboutShiftService.InformationAboutShiftsClient" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAgEAIAgAyzJAAKwAAAgNRCQACGQwKFAIIIAREI=</HashCode>
+      <FileName>Connected Services\InformationAboutShiftService\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InformationAboutShifts.Properties.Resources">
+    <Position X="10.25" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAACABGAAAAQAAAAAAYACAAAAAAYA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InformationAboutShifts.Properties.Settings">
+    <Position X="13" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="InformationAboutShifts.InformationAboutShiftService.IInformationAboutShifts">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAgEAIAgAyzJAAKwAAAgNRCQACGQwKFAIIIAREI=</HashCode>
+      <FileName>Connected Services\InformationAboutShiftService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InformationAboutShifts.InformationAboutShiftService.IInformationAboutShiftsChannel" Collapsed="true">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connected Services\InformationAboutShiftService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

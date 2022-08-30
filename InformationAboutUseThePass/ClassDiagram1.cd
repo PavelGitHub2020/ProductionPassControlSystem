@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InformationAboutUseThePass.InformationAboutUseThePassToColorConverter" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InformationAboutUseThePassToColorConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InformationAboutUseThePass.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="15" Y="0.5" Width="4" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AERmQAAAIAAAAAAEAAAgAADAlIRgAACBAAAAogADPgA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InformationAboutUseThePass.InformationAboutUseThePassService.InformationAboutUseThePassClient" BaseTypeListCollapsed="true">
+    <Position X="6" Y="0.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>BCAyRAQAAQCAAQAIiAAYAAAFggQBgAAAAIEACEAQiIA=</HashCode>
+      <FileName>Connected Services\InformationAboutUseThePassService\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InformationAboutUseThePass.Properties.Resources">
+    <Position X="19.25" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAABAAAAAAAGABGAACARAiAAAAYACAQAACAYA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InformationAboutUseThePass.Properties.Settings">
+    <Position X="12.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="InformationAboutUseThePass.InformationAboutUseThePassService.IInformationAboutShifts" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAAAAUAAAiAiTDAACgAgAgNRCQACDQwKFAIAoABEI=</HashCode>
+      <FileName>Connected Services\InformationAboutUseThePassService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InformationAboutUseThePass.InformationAboutUseThePassService.IFindWorker" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAEAAkAIAAAIAAAAAgAAAQAAAAAAAgAACAARAA=</HashCode>
+      <FileName>Connected Services\InformationAboutUseThePassService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InformationAboutUseThePass.InformationAboutUseThePassService.IInformationAboutUseThePass">
+    <Position X="0.5" Y="0.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>BCAyRAQAAQCAAQAIiAAYAAAFggQBgAAAAIEACEAQiIA=</HashCode>
+      <FileName>Connected Services\InformationAboutUseThePassService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InformationAboutUseThePass.InformationAboutUseThePassService.IInformationAboutUseThePassChannel" Collapsed="true">
+    <Position X="1" Y="8" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connected Services\InformationAboutUseThePassService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

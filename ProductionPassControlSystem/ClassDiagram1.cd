@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProductionPassControlSystem.DAL.BaseDAO">
+    <Position X="0.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAABAAAAAAAAAAAgAAAAABAAAAA=</HashCode>
+      <FileName>DAL\BaseDAO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProductionPassControlSystem.Entity.Address" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAgAAEAAAAAAAABEAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Entity\Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProductionPassControlSystem.Entity.ControlOfTheUseOfThePass">
+    <Position X="9.5" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABACAAAAAAAAAAAAAAAAAAAAEAAAAAgAAAAI=</HashCode>
+      <FileName>Entity\ControlOfTheUseOfThePass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProductionPassControlSystem.Entity.FieldsForChangingTheWorkShedule">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAggAAAAAI=</HashCode>
+      <FileName>Entity\FieldsForChangingTheWorkShedule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProductionPassControlSystem.Entity.Pass" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAgAAEAEAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Entity\Pass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProductionPassControlSystem.Entity.Photo" Collapsed="true">
+    <Position X="1" Y="2" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAIEAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Entity\Photo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProductionPassControlSystem.Entity.ScheduleOfShift" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgoAAQAAAAgQBEAAAAAIAACCAEAAAgARAAAAAgAAg=</HashCode>
+      <FileName>Entity\ScheduleOfShift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProductionPassControlSystem.Entity.Worker" Collapsed="true">
+    <Position X="1.5" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAQgACEAAAAQAQABAAQCAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Entity\Worker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProductionPassControlSystem.ProductionPassControlSystemService" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>NmWmlv2/p8jyN//L/9a5Dd95lyauNp3K778OZ5/B1mI=</HashCode>
+      <FileName>ProductionPassControlSystemService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ProductionPassControlSystem.BLL.IAddColumnsInGrid" Collapsed="true">
+    <Position X="16" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IAddColumnsInGrid.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IAudioMessageAboutCheckWorkerIdentificator" Collapsed="true">
+    <Position X="17.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IAudioMessageAboutCheckWorkerIdentificator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IAudioMessageAboutDelete" Collapsed="true">
+    <Position X="19.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IAudioMessageAboutDelete.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IAudioMessageAboutEnterWorkerId" Collapsed="true">
+    <Position X="21.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IAudioMessageAboutEnterWorkerId.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IAudioMessageAboutHereIsResult" Collapsed="true">
+    <Position X="23" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IAudioMessageAboutHereIsResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IAudioMessageAboutInformationAboutWorkerChanged" Collapsed="true">
+    <Position X="23" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IAudioMessageAboutInformationAboutWorkerChanged.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IAudioMessageAboutNotAllParametersAreFilledIn" Collapsed="true">
+    <Position X="14.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IAudioMessageAboutNotAllParametersAreFilledIn.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IAudioMessageAboutNothingWasFound" Collapsed="true">
+    <Position X="16" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>BLL\IAudioMessageAboutNothingWasFound.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IAudioMessageAboutResetInputParameters" Collapsed="true">
+    <Position X="17.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IAudioMessageAboutResetInputParameters.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IAudioMessageAboutTheInputStringHadAnIncorretFormat" Collapsed="true">
+    <Position X="19.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IAudioMessageAboutTheInputStringHadAnIncorretFormat.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IAudioMessageAboutThereIsNoWorkerWithSuchIdentificator">
+    <Position X="21.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IAudioMessageAboutThereIsNoWorkerWithSuchIdentificator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IAudioMessageAboutTimeIsNotSet" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IAudioMessageAboutTimeIsNotSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IAudioMessageAboutWhatManagedToFind" Collapsed="true">
+    <Position X="23" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>BLL\IAudioMessageAboutWhatManagedToFind.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IAudioMessageAboutWorkerIdOrShiftDoesNotMatch" Collapsed="true">
+    <Position X="14.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IAudioMessageAboutWorkerIdOrShiftDoesNotMatch.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IAudioMessagesAboutSave" Collapsed="true">
+    <Position X="16" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IAudioMessagesAboutSave.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IChoosingDayFirstShift" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAABAAAAAAAAAAAAAAAAAAAEAAAAAAAEAAAAQ=</HashCode>
+      <FileName>BLL\IChoosingDayFirstShift.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IChoosingDayFourthShift" Collapsed="true">
+    <Position X="21.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAACAAAAAAAAAAAAAAAAEAAIABAAAAAA=</HashCode>
+      <FileName>BLL\IChoosingDayFourthShift.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IChoosingDaySecondShift" Collapsed="true">
+    <Position X="23" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAIAAACAAEAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IChoosingDaySecondShift.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IChoosingDayThirdShift" Collapsed="true">
+    <Position X="14.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAEABAAAAAAAAAAQAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IChoosingDayThirdShift.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IChoosingTheNumberOfDay" Collapsed="true">
+    <Position X="16" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IChoosingTheNumberOfDay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IFillingGrid">
+    <Position X="17.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IFillingGrid.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IFillingWithData" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IFillingWithData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IGetArrayOfValuesOfShifts" Collapsed="true">
+    <Position X="23" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IGetArrayOfValuesOfShifts.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IGetInformationAboutShifts" Collapsed="true">
+    <Position X="14.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IGetInformationAboutShifts.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IGetSpecificDay">
+    <Position X="16" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAIAAIAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>BLL\IGetSpecificDay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IGetValueOfShifts" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IGetValueOfShifts.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IHighlightingSaturdaysAndSundays" Collapsed="true">
+    <Position X="17.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IHighlightingSaturdaysAndSundays.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.ISetOfParameters" Collapsed="true">
+    <Position X="17.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>BLL\ISetOfParameters.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.ISetOfParameters2" Collapsed="true">
+    <Position X="19.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>BLL\ISetOfParameters2.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.ISetOfParameters3" Collapsed="true">
+    <Position X="21.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>BLL\ISetOfParameters3.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.ISetOfParameters4" Collapsed="true">
+    <Position X="23" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>BLL\ISetOfParameters4.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.ISetOfParameters5">
+    <Position X="21.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>BLL\ISetOfParameters5.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.ISetOfParameters6">
+    <Position X="19.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>BLL\ISetOfParameters6.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.ISettingLanguageParameters">
+    <Position X="14.25" Y="7.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>BLL\ISettingLanguageParameters.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.ISettingSoundParameters">
+    <Position X="16" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\ISettingSoundParameters.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.BLL.IStringMessage">
+    <Position X="17.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\IStringMessage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.DAL.IBaseDAO" Collapsed="true">
+    <Position X="17.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAA=</HashCode>
+      <FileName>DAL\IBaseDAO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.IProductionPassControlSystemService">
+    <Position X="14.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAgAACAAAAAAQAAAAQABAAA=</HashCode>
+      <FileName>IProductionPassControlSystemService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.IInformationAboutShifts" Collapsed="true">
+    <Position X="19.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAgAgUAAAiA/7JRQKgAVVQFSCiAIDAqqgKIJsAAAI=</HashCode>
+      <FileName>IProductionPassControlSystemService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.IAddWorker" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBAAAAAAAAAAAAAAAAAAAAAAAAACAAAAQACAAAA=</HashCode>
+      <FileName>IProductionPassControlSystemService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.IFindWorker" Collapsed="true">
+    <Position X="19.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAEAAgAIAAAIAAAAAgAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IProductionPassControlSystemService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.IGetAll" Collapsed="true">
+    <Position X="19.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAABAAIAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>IProductionPassControlSystemService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.IRemove" Collapsed="true">
+    <Position X="16" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAQBAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IProductionPassControlSystemService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.IChangingWorkerInformation" Collapsed="true">
+    <Position X="19.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAEAAAAABAAAAAAAAgAAAAAAAAAAQAAIAIAAAAAAA=</HashCode>
+      <FileName>IProductionPassControlSystemService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.IPassageControl" Collapsed="true">
+    <Position X="14.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAIAEAAEAAAABABBAAAAAAEABEAAAAAJADA1AA=</HashCode>
+      <FileName>IProductionPassControlSystemService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.IInformationAboutUseThePass" Collapsed="true">
+    <Position X="21.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAiAAQAAQCAAAAIgAAIAAABggQAAAAAAIEAAAAAAAA=</HashCode>
+      <FileName>IProductionPassControlSystemService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProductionPassControlSystem.IMenu" Collapsed="true">
+    <Position X="23" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAABgACABAAAAAAAAAAAAAAAAAgIAAAIBAAAAAA=</HashCode>
+      <FileName>IProductionPassControlSystemService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

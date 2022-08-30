@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ProductionPassControlSystem.Entity" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ProductionPassControlSystem.Entity" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Worker">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DateOfBirth" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DateOfStartToWork" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentId" type="xs:int" />
+      <xs:element minOccurs="0" name="Gender" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumberOfShift" type="xs:int" />
+      <xs:element minOccurs="0" name="Patronymic" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PhoneNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Profession" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Surname" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Worker" nillable="true" type="tns:Worker" />
+  <xs:complexType name="Address">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="HouseNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NameOfTheCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NameOfTheStreet" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WorkerId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Address" nillable="true" type="tns:Address" />
+  <xs:complexType name="Pass">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Condition" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WorkerId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Pass" nillable="true" type="tns:Pass" />
+  <xs:complexType name="Photo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Path" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WorkerId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Photo" nillable="true" type="tns:Photo" />
+  <xs:complexType name="ArrayOfWorker">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Worker" nillable="true" type="tns:Worker" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWorker" nillable="true" type="tns:ArrayOfWorker" />
+  <xs:complexType name="ArrayOfPass">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Pass" nillable="true" type="tns:Pass" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPass" nillable="true" type="tns:ArrayOfPass" />
+  <xs:complexType name="ArrayOfAddress">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Address" nillable="true" type="tns:Address" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAddress" nillable="true" type="tns:ArrayOfAddress" />
+  <xs:complexType name="ArrayOfPhoto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Photo" nillable="true" type="tns:Photo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPhoto" nillable="true" type="tns:ArrayOfPhoto" />
+</xs:schema>

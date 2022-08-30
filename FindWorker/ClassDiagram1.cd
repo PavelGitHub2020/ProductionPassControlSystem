@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FindWorker.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AEBCAAAIAAAAAAAQAAAAAADAkAAgAAABAAAAoAABAiA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FindWorker.FindWorkerService.FindWorkerClient" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAEAAkAIAAAIAAAAAgAAAQAAAAAAAgAACAARAA=</HashCode>
+      <FileName>Connected Services\FindWorkerService\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FindWorker.Properties.Resources">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAABGAAAASAAAACAYACAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FindWorker.Properties.Settings">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FindWorker.FindWorkerService.IFindWorker">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAEAAkAIAAAIAAAAAgAAAQAAAAAAAgAACAARAA=</HashCode>
+      <FileName>Connected Services\FindWorkerService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FindWorker.FindWorkerService.IFindWorkerChannel" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connected Services\FindWorkerService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ProductionPassControlSystemService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_IProductionPassControlSystemService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="NetTcpBinding_IInformationAboutShifts_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="NetTcpBinding_IAddWorker_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="NetTcpBinding_IFindWorker_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="NetTcpBinding_IGetAll_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8080/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8080/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8080/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ProductionPassControlSystem.Entity" />
+      <xsd:import schemaLocation="http://localhost:8080/?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:8080/?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IProductionPassControlSystemService_InsertWorker_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertWorker" />
+  </wsdl:message>
+  <wsdl:message name="IProductionPassControlSystemService_InsertWorker_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertWorkerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_GetInformationAboutFirstShift_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInformationAboutFirstShift" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_GetInformationAboutFirstShift_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInformationAboutFirstShiftResponse" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_GetInformationAboutSecondShift_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInformationAboutSecondShift" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_GetInformationAboutSecondShift_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInformationAboutSecondShiftResponse" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_GetInformationAboutThirdShift_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInformationAboutThirdShift" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_GetInformationAboutThirdShift_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInformationAboutThirdShiftResponse" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_GetInformationAboutFourthShift_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInformationAboutFourthShift" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_GetInformationAboutFourthShift_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInformationAboutFourthShiftResponse" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_SelectingSaturdayOrSunday_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectingSaturdayOrSunday" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_SelectingSaturdayOrSunday_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectingSaturdayOrSundayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_SelectingYear_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectingYear" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_SelectingYear_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectingYearResponse" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_SelectingMonth_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectingMonth" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_SelectingMonth_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectingMonthResponse" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_ClearData_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClearData" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_ClearData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_ClearData2_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClearData2" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_ClearData2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearData2Response" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_NumberOfDayShift_InputMessage">
+    <wsdl:part name="parameters" element="tns:NumberOfDayShift" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_NumberOfDayShift_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NumberOfDayShiftResponse" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_NumberOfNightShift_InputMessage">
+    <wsdl:part name="parameters" element="tns:NumberOfNightShift" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_NumberOfNightShift_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NumberOfNightShiftResponse" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_NumberOfDayOff_InputMessage">
+    <wsdl:part name="parameters" element="tns:NumberOfDayOff" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_NumberOfDayOff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NumberOfDayOffResponse" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_NumberOfEndDayOff_InputMessage">
+    <wsdl:part name="parameters" element="tns:NumberOfEndDayOff" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_NumberOfEndDayOff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NumberOfEndDayOffResponse" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_NumberOfDay_InputMessage">
+    <wsdl:part name="parameters" element="tns:NumberOfDay" />
+  </wsdl:message>
+  <wsdl:message name="IInformationAboutShifts_NumberOfDay_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NumberOfDayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAddWorker_AddWorker_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddWorker" />
+  </wsdl:message>
+  <wsdl:message name="IAddWorker_AddWorker_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddWorkerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAddWorker_GetMaxId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMaxId" />
+  </wsdl:message>
+  <wsdl:message name="IAddWorker_GetMaxId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMaxIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAddWorker_AddAddress_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddAddress" />
+  </wsdl:message>
+  <wsdl:message name="IAddWorker_AddAddress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAddWorker_AddPass_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddPass" />
+  </wsdl:message>
+  <wsdl:message name="IAddWorker_AddPass_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPassResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAddWorker_AddPhoto_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddPhoto" />
+  </wsdl:message>
+  <wsdl:message name="IAddWorker_AddPhoto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPhotoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFindWorker_FindByPassNumberAndDepartmentName_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindByPassNumberAndDepartmentName" />
+  </wsdl:message>
+  <wsdl:message name="IFindWorker_FindByPassNumberAndDepartmentName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindByPassNumberAndDepartmentNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFindWorker_GetTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTable" />
+  </wsdl:message>
+  <wsdl:message name="IFindWorker_GetTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFindWorker_GetListWorker_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetListWorker" />
+  </wsdl:message>
+  <wsdl:message name="IFindWorker_GetListWorker_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetListWorkerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFindWorker_GetListPass_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetListPass" />
+  </wsdl:message>
+  <wsdl:message name="IFindWorker_GetListPass_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetListPassResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFindWorker_GetListAddress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetListAddress" />
+  </wsdl:message>
+  <wsdl:message name="IFindWorker_GetListAddress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetListAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFindWorker_GetListPhoto_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetListPhoto" />
+  </wsdl:message>
+  <wsdl:message name="IFindWorker_GetListPhoto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetListPhotoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFindWorker_GetListDepName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetListDepName" />
+  </wsdl:message>
+  <wsdl:message name="IFindWorker_GetListDepName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetListDepNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGetAll_GetNumberOfWorkers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNumberOfWorkers" />
+  </wsdl:message>
+  <wsdl:message name="IGetAll_GetNumberOfWorkers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNumberOfWorkersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGetAll_FindTheNumberOfEmployeesInDepartment_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindTheNumberOfEmployeesInDepartment" />
+  </wsdl:message>
+  <wsdl:message name="IGetAll_FindTheNumberOfEmployeesInDepartment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindTheNumberOfEmployeesInDepartmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGetAll_GetAllWorker_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllWorker" />
+  </wsdl:message>
+  <wsdl:message name="IGetAll_GetAllWorker_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllWorkerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGetAll_GetAllWorkerByDepartment_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllWorkerByDepartment" />
+  </wsdl:message>
+  <wsdl:message name="IGetAll_GetAllWorkerByDepartment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllWorkerByDepartmentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IProductionPassControlSystemService">
+    <wsdl:operation name="InsertWorker">
+      <wsdl:input wsaw:Action="http://tempuri.org/IProductionPassControlSystemService/InsertWorker" message="tns:IProductionPassControlSystemService_InsertWorker_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IProductionPassControlSystemService/InsertWorkerResponse" message="tns:IProductionPassControlSystemService_InsertWorker_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IInformationAboutShifts">
+    <wsdl:operation name="GetInformationAboutFirstShift">
+      <wsdl:input wsaw:Action="http://tempuri.org/IInformationAboutShifts/GetInformationAboutFirstShift" message="tns:IInformationAboutShifts_GetInformationAboutFirstShift_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IInformationAboutShifts/GetInformationAboutFirstShiftResponse" message="tns:IInformationAboutShifts_GetInformationAboutFirstShift_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInformationAboutSecondShift">
+      <wsdl:input wsaw:Action="http://tempuri.org/IInformationAboutShifts/GetInformationAboutSecondShift" message="tns:IInformationAboutShifts_GetInformationAboutSecondShift_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IInformationAboutShifts/GetInformationAboutSecondShiftResponse" message="tns:IInformationAboutShifts_GetInformationAboutSecondShift_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInformationAboutThirdShift">
+      <wsdl:input wsaw:Action="http://tempuri.org/IInformationAboutShifts/GetInformationAboutThirdShift" message="tns:IInformationAboutShifts_GetInformationAboutThirdShift_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IInformationAboutShifts/GetInformationAboutThirdShiftResponse" message="tns:IInformationAboutShifts_GetInformationAboutThirdShift_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInformationAboutFourthShift">
+      <wsdl:input wsaw:Action="http://tempuri.org/IInformationAboutShifts/GetInformationAboutFourthShift" message="tns:IInformationAboutShifts_GetInformationAboutFourthShift_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IInformationAboutShifts/GetInformationAboutFourthShiftResponse" message="tns:IInformationAboutShifts_GetInformationAboutFourthShift_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectingSaturdayOrSunday">
+      <wsdl:input wsaw:Action="http://tempuri.org/IInformationAboutShifts/SelectingSaturdayOrSunday" message="tns:IInformationAboutShifts_SelectingSaturdayOrSunday_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IInformationAboutShifts/SelectingSaturdayOrSundayResponse" message="tns:IInformationAboutShifts_SelectingSaturdayOrSunday_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectingYear">
+      <wsdl:input wsaw:Action="http://tempuri.org/IInformationAboutShifts/SelectingYear" message="tns:IInformationAboutShifts_SelectingYear_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IInformationAboutShifts/SelectingYearResponse" message="tns:IInformationAboutShifts_SelectingYear_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectingMonth">
+      <wsdl:input wsaw:Action="http://tempuri.org/IInformationAboutShifts/SelectingMonth" message="tns:IInformationAboutShifts_SelectingMonth_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IInformationAboutShifts/SelectingMonthResponse" message="tns:IInformationAboutShifts_SelectingMonth_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IInformationAboutShifts/ClearData" message="tns:IInformationAboutShifts_ClearData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IInformationAboutShifts/ClearDataResponse" message="tns:IInformationAboutShifts_ClearData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearData2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IInformationAboutShifts/ClearData2" message="tns:IInformationAboutShifts_ClearData2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IInformationAboutShifts/ClearData2Response" message="tns:IInformationAboutShifts_ClearData2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfDayShift">
+      <wsdl:input wsaw:Action="http://tempuri.org/IInformationAboutShifts/NumberOfDayShift" message="tns:IInformationAboutShifts_NumberOfDayShift_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IInformationAboutShifts/NumberOfDayShiftResponse" message="tns:IInformationAboutShifts_NumberOfDayShift_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfNightShift">
+      <wsdl:input wsaw:Action="http://tempuri.org/IInformationAboutShifts/NumberOfNightShift" message="tns:IInformationAboutShifts_NumberOfNightShift_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IInformationAboutShifts/NumberOfNightShiftResponse" message="tns:IInformationAboutShifts_NumberOfNightShift_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfDayOff">
+      <wsdl:input wsaw:Action="http://tempuri.org/IInformationAboutShifts/NumberOfDayOff" message="tns:IInformationAboutShifts_NumberOfDayOff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IInformationAboutShifts/NumberOfDayOffResponse" message="tns:IInformationAboutShifts_NumberOfDayOff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfEndDayOff">
+      <wsdl:input wsaw:Action="http://tempuri.org/IInformationAboutShifts/NumberOfEndDayOff" message="tns:IInformationAboutShifts_NumberOfEndDayOff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IInformationAboutShifts/NumberOfEndDayOffResponse" message="tns:IInformationAboutShifts_NumberOfEndDayOff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfDay">
+      <wsdl:input wsaw:Action="http://tempuri.org/IInformationAboutShifts/NumberOfDay" message="tns:IInformationAboutShifts_NumberOfDay_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IInformationAboutShifts/NumberOfDayResponse" message="tns:IInformationAboutShifts_NumberOfDay_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IAddWorker">
+    <wsdl:operation name="AddWorker">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAddWorker/AddWorker" message="tns:IAddWorker_AddWorker_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAddWorker/AddWorkerResponse" message="tns:IAddWorker_AddWorker_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMaxId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAddWorker/GetMaxId" message="tns:IAddWorker_GetMaxId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAddWorker/GetMaxIdResponse" message="tns:IAddWorker_GetMaxId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAddress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAddWorker/AddAddress" message="tns:IAddWorker_AddAddress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAddWorker/AddAddressResponse" message="tns:IAddWorker_AddAddress_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPass">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAddWorker/AddPass" message="tns:IAddWorker_AddPass_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAddWorker/AddPassResponse" message="tns:IAddWorker_AddPass_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAddWorker/AddPhoto" message="tns:IAddWorker_AddPhoto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAddWorker/AddPhotoResponse" message="tns:IAddWorker_AddPhoto_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IFindWorker">
+    <wsdl:operation name="FindByPassNumberAndDepartmentName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFindWorker/FindByPassNumberAndDepartmentName" message="tns:IFindWorker_FindByPassNumberAndDepartmentName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFindWorker/FindByPassNumberAndDepartmentNameResponse" message="tns:IFindWorker_FindByPassNumberAndDepartmentName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFindWorker/GetTable" message="tns:IFindWorker_GetTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFindWorker/GetTableResponse" message="tns:IFindWorker_GetTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListWorker">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFindWorker/GetListWorker" message="tns:IFindWorker_GetListWorker_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFindWorker/GetListWorkerResponse" message="tns:IFindWorker_GetListWorker_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListPass">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFindWorker/GetListPass" message="tns:IFindWorker_GetListPass_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFindWorker/GetListPassResponse" message="tns:IFindWorker_GetListPass_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListAddress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFindWorker/GetListAddress" message="tns:IFindWorker_GetListAddress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFindWorker/GetListAddressResponse" message="tns:IFindWorker_GetListAddress_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListPhoto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFindWorker/GetListPhoto" message="tns:IFindWorker_GetListPhoto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFindWorker/GetListPhotoResponse" message="tns:IFindWorker_GetListPhoto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListDepName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFindWorker/GetListDepName" message="tns:IFindWorker_GetListDepName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFindWorker/GetListDepNameResponse" message="tns:IFindWorker_GetListDepName_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IGetAll">
+    <wsdl:operation name="GetNumberOfWorkers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGetAll/GetNumberOfWorkers" message="tns:IGetAll_GetNumberOfWorkers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGetAll/GetNumberOfWorkersResponse" message="tns:IGetAll_GetNumberOfWorkers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindTheNumberOfEmployeesInDepartment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGetAll/FindTheNumberOfEmployeesInDepartment" message="tns:IGetAll_FindTheNumberOfEmployeesInDepartment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGetAll/FindTheNumberOfEmployeesInDepartmentResponse" message="tns:IGetAll_FindTheNumberOfEmployeesInDepartment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllWorker">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGetAll/GetAllWorker" message="tns:IGetAll_GetAllWorker_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGetAll/GetAllWorkerResponse" message="tns:IGetAll_GetAllWorker_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllWorkerByDepartment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGetAll/GetAllWorkerByDepartment" message="tns:IGetAll_GetAllWorkerByDepartment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGetAll/GetAllWorkerByDepartmentResponse" message="tns:IGetAll_GetAllWorkerByDepartment_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IProductionPassControlSystemService" type="tns:IProductionPassControlSystemService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="InsertWorker">
+      <soap:operation soapAction="http://tempuri.org/IProductionPassControlSystemService/InsertWorker" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NetTcpBinding_IProductionPassControlSystemService" type="tns:IProductionPassControlSystemService">
+    <wsp:PolicyReference URI="#NetTcpBinding_IProductionPassControlSystemService_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="InsertWorker">
+      <soap12:operation soapAction="http://tempuri.org/IProductionPassControlSystemService/InsertWorker" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_IInformationAboutShifts" type="tns:IInformationAboutShifts">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetInformationAboutFirstShift">
+      <soap:operation soapAction="http://tempuri.org/IInformationAboutShifts/GetInformationAboutFirstShift" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInformationAboutSecondShift">
+      <soap:operation soapAction="http://tempuri.org/IInformationAboutShifts/GetInformationAboutSecondShift" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInformationAboutThirdShift">
+      <soap:operation soapAction="http://tempuri.org/IInformationAboutShifts/GetInformationAboutThirdShift" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInformationAboutFourthShift">
+      <soap:operation soapAction="http://tempuri.org/IInformationAboutShifts/GetInformationAboutFourthShift" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectingSaturdayOrSunday">
+      <soap:operation soapAction="http://tempuri.org/IInformationAboutShifts/SelectingSaturdayOrSunday" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectingYear">
+      <soap:operation soapAction="http://tempuri.org/IInformationAboutShifts/SelectingYear" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectingMonth">
+      <soap:operation soapAction="http://tempuri.org/IInformationAboutShifts/SelectingMonth" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearData">
+      <soap:operation soapAction="http://tempuri.org/IInformationAboutShifts/ClearData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearData2">
+      <soap:operation soapAction="http://tempuri.org/IInformationAboutShifts/ClearData2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfDayShift">
+      <soap:operation soapAction="http://tempuri.org/IInformationAboutShifts/NumberOfDayShift" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfNightShift">
+      <soap:operation soapAction="http://tempuri.org/IInformationAboutShifts/NumberOfNightShift" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfDayOff">
+      <soap:operation soapAction="http://tempuri.org/IInformationAboutShifts/NumberOfDayOff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfEndDayOff">
+      <soap:operation soapAction="http://tempuri.org/IInformationAboutShifts/NumberOfEndDayOff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfDay">
+      <soap:operation soapAction="http://tempuri.org/IInformationAboutShifts/NumberOfDay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NetTcpBinding_IInformationAboutShifts" type="tns:IInformationAboutShifts">
+    <wsp:PolicyReference URI="#NetTcpBinding_IInformationAboutShifts_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetInformationAboutFirstShift">
+      <soap12:operation soapAction="http://tempuri.org/IInformationAboutShifts/GetInformationAboutFirstShift" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInformationAboutSecondShift">
+      <soap12:operation soapAction="http://tempuri.org/IInformationAboutShifts/GetInformationAboutSecondShift" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInformationAboutThirdShift">
+      <soap12:operation soapAction="http://tempuri.org/IInformationAboutShifts/GetInformationAboutThirdShift" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInformationAboutFourthShift">
+      <soap12:operation soapAction="http://tempuri.org/IInformationAboutShifts/GetInformationAboutFourthShift" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectingSaturdayOrSunday">
+      <soap12:operation soapAction="http://tempuri.org/IInformationAboutShifts/SelectingSaturdayOrSunday" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectingYear">
+      <soap12:operation soapAction="http://tempuri.org/IInformationAboutShifts/SelectingYear" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectingMonth">
+      <soap12:operation soapAction="http://tempuri.org/IInformationAboutShifts/SelectingMonth" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearData">
+      <soap12:operation soapAction="http://tempuri.org/IInformationAboutShifts/ClearData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearData2">
+      <soap12:operation soapAction="http://tempuri.org/IInformationAboutShifts/ClearData2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfDayShift">
+      <soap12:operation soapAction="http://tempuri.org/IInformationAboutShifts/NumberOfDayShift" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfNightShift">
+      <soap12:operation soapAction="http://tempuri.org/IInformationAboutShifts/NumberOfNightShift" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfDayOff">
+      <soap12:operation soapAction="http://tempuri.org/IInformationAboutShifts/NumberOfDayOff" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfEndDayOff">
+      <soap12:operation soapAction="http://tempuri.org/IInformationAboutShifts/NumberOfEndDayOff" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfDay">
+      <soap12:operation soapAction="http://tempuri.org/IInformationAboutShifts/NumberOfDay" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_IAddWorker" type="tns:IAddWorker">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddWorker">
+      <soap:operation soapAction="http://tempuri.org/IAddWorker/AddWorker" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMaxId">
+      <soap:operation soapAction="http://tempuri.org/IAddWorker/GetMaxId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAddress">
+      <soap:operation soapAction="http://tempuri.org/IAddWorker/AddAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPass">
+      <soap:operation soapAction="http://tempuri.org/IAddWorker/AddPass" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto">
+      <soap:operation soapAction="http://tempuri.org/IAddWorker/AddPhoto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NetTcpBinding_IAddWorker" type="tns:IAddWorker">
+    <wsp:PolicyReference URI="#NetTcpBinding_IAddWorker_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="AddWorker">
+      <soap12:operation soapAction="http://tempuri.org/IAddWorker/AddWorker" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMaxId">
+      <soap12:operation soapAction="http://tempuri.org/IAddWorker/GetMaxId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAddress">
+      <soap12:operation soapAction="http://tempuri.org/IAddWorker/AddAddress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPass">
+      <soap12:operation soapAction="http://tempuri.org/IAddWorker/AddPass" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto">
+      <soap12:operation soapAction="http://tempuri.org/IAddWorker/AddPhoto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_IFindWorker" type="tns:IFindWorker">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="FindByPassNumberAndDepartmentName">
+      <soap:operation soapAction="http://tempuri.org/IFindWorker/FindByPassNumberAndDepartmentName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTable">
+      <soap:operation soapAction="http://tempuri.org/IFindWorker/GetTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListWorker">
+      <soap:operation soapAction="http://tempuri.org/IFindWorker/GetListWorker" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListPass">
+      <soap:operation soapAction="http://tempuri.org/IFindWorker/GetListPass" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListAddress">
+      <soap:operation soapAction="http://tempuri.org/IFindWorker/GetListAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListPhoto">
+      <soap:operation soapAction="http://tempuri.org/IFindWorker/GetListPhoto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListDepName">
+      <soap:operation soapAction="http://tempuri.org/IFindWorker/GetListDepName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NetTcpBinding_IFindWorker" type="tns:IFindWorker">
+    <wsp:PolicyReference URI="#NetTcpBinding_IFindWorker_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="FindByPassNumberAndDepartmentName">
+      <soap12:operation soapAction="http://tempuri.org/IFindWorker/FindByPassNumberAndDepartmentName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTable">
+      <soap12:operation soapAction="http://tempuri.org/IFindWorker/GetTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListWorker">
+      <soap12:operation soapAction="http://tempuri.org/IFindWorker/GetListWorker" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListPass">
+      <soap12:operation soapAction="http://tempuri.org/IFindWorker/GetListPass" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListAddress">
+      <soap12:operation soapAction="http://tempuri.org/IFindWorker/GetListAddress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListPhoto">
+      <soap12:operation soapAction="http://tempuri.org/IFindWorker/GetListPhoto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListDepName">
+      <soap12:operation soapAction="http://tempuri.org/IFindWorker/GetListDepName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_IGetAll" type="tns:IGetAll">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetNumberOfWorkers">
+      <soap:operation soapAction="http://tempuri.org/IGetAll/GetNumberOfWorkers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindTheNumberOfEmployeesInDepartment">
+      <soap:operation soapAction="http://tempuri.org/IGetAll/FindTheNumberOfEmployeesInDepartment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllWorker">
+      <soap:operation soapAction="http://tempuri.org/IGetAll/GetAllWorker" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllWorkerByDepartment">
+      <soap:operation soapAction="http://tempuri.org/IGetAll/GetAllWorkerByDepartment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NetTcpBinding_IGetAll" type="tns:IGetAll">
+    <wsp:PolicyReference URI="#NetTcpBinding_IGetAll_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetNumberOfWorkers">
+      <soap12:operation soapAction="http://tempuri.org/IGetAll/GetNumberOfWorkers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindTheNumberOfEmployeesInDepartment">
+      <soap12:operation soapAction="http://tempuri.org/IGetAll/FindTheNumberOfEmployeesInDepartment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllWorker">
+      <soap12:operation soapAction="http://tempuri.org/IGetAll/GetAllWorker" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllWorkerByDepartment">
+      <soap12:operation soapAction="http://tempuri.org/IGetAll/GetAllWorkerByDepartment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ProductionPassControlSystemService">
+    <wsdl:port name="BasicHttpBinding_IProductionPassControlSystemService" binding="tns:BasicHttpBinding_IProductionPassControlSystemService">
+      <soap:address location="http://localhost:8080/ProductionPassControlSystemService" />
+    </wsdl:port>
+    <wsdl:port name="NetTcpBinding_IProductionPassControlSystemService" binding="tns:NetTcpBinding_IProductionPassControlSystemService">
+      <soap12:address location="net.tcp://localhost:45617/ProductionPassControlSystemService" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:45617/ProductionPassControlSystemService</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>DESKTOP-1OA4FC7\Pavav</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_IInformationAboutShifts" binding="tns:BasicHttpBinding_IInformationAboutShifts">
+      <soap:address location="http://localhost:8080/ProductionPassControlSystemService" />
+    </wsdl:port>
+    <wsdl:port name="NetTcpBinding_IInformationAboutShifts" binding="tns:NetTcpBinding_IInformationAboutShifts">
+      <soap12:address location="net.tcp://localhost:45617/ProductionPassControlSystemService" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:45617/ProductionPassControlSystemService</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>DESKTOP-1OA4FC7\Pavav</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_IAddWorker" binding="tns:BasicHttpBinding_IAddWorker">
+      <soap:address location="http://localhost:8080/ProductionPassControlSystemService" />
+    </wsdl:port>
+    <wsdl:port name="NetTcpBinding_IAddWorker" binding="tns:NetTcpBinding_IAddWorker">
+      <soap12:address location="net.tcp://localhost:45617/ProductionPassControlSystemService" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:45617/ProductionPassControlSystemService</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>DESKTOP-1OA4FC7\Pavav</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_IFindWorker" binding="tns:BasicHttpBinding_IFindWorker">
+      <soap:address location="http://localhost:8080/ProductionPassControlSystemService" />
+    </wsdl:port>
+    <wsdl:port name="NetTcpBinding_IFindWorker" binding="tns:NetTcpBinding_IFindWorker">
+      <soap12:address location="net.tcp://localhost:45617/ProductionPassControlSystemService" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:45617/ProductionPassControlSystemService</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>DESKTOP-1OA4FC7\Pavav</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_IGetAll" binding="tns:BasicHttpBinding_IGetAll">
+      <soap:address location="http://localhost:8080/ProductionPassControlSystemService" />
+    </wsdl:port>
+    <wsdl:port name="NetTcpBinding_IGetAll" binding="tns:NetTcpBinding_IGetAll">
+      <soap12:address location="net.tcp://localhost:45617/ProductionPassControlSystemService" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:45617/ProductionPassControlSystemService</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>DESKTOP-1OA4FC7\Pavav</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

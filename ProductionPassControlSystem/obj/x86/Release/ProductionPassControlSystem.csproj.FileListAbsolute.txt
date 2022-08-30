@@ -1,0 +1,7 @@
+B:\учебный проект\для примеров\Итоговый проект\ProductionPassControlSystem\ProductionPassControlSystem\bin\x86\Release\ProductionPassControlSystem.dll.config
+B:\учебный проект\для примеров\Итоговый проект\ProductionPassControlSystem\ProductionPassControlSystem\bin\x86\Release\ProductionPassControlSystem.dll
+B:\учебный проект\для примеров\Итоговый проект\ProductionPassControlSystem\ProductionPassControlSystem\bin\x86\Release\ProductionPassControlSystem.pdb
+B:\учебный проект\для примеров\Итоговый проект\ProductionPassControlSystem\ProductionPassControlSystem\obj\x86\Release\ProductionPassControlSystem.csproj.CoreCompileInputs.cache
+B:\учебный проект\для примеров\Итоговый проект\ProductionPassControlSystem\ProductionPassControlSystem\obj\x86\Release\ProductionPassControlSystem.dll
+B:\учебный проект\для примеров\Итоговый проект\ProductionPassControlSystem\ProductionPassControlSystem\obj\x86\Release\ProductionPassControlSystem.pdb
+B:\учебный проект\для примеров\Итоговый проект\ProductionPassControlSystem\ProductionPassControlSystem\obj\x86\Release\ProductionPassControlSystem.csproj.AssemblyReference.cache

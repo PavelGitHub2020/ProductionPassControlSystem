@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GetAll.DepartmentNameToColorConvert" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DepartmentNameToColorConvert.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GetAll.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AEDCBAAAAAAAAAIAAAAACARAkAACAAEBAAAgoQABAAg=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GetAll.GetAllService.GetAllClient" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAEAAAACAAAAIABCAIAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Connected Services\GetAllService\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GetAll.Properties.Resources">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAEAAAAAAAAAAAAAABEAAAAQAAAAAAIACAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetAll.Properties.Settings">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GetAll.GetAllService.IGetAll">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAEAAAACAAAAIABCAIAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Connected Services\GetAllService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GetAll.GetAllService.IGetAllChannel" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connected Services\GetAllService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

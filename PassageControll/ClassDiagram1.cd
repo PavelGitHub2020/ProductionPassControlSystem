@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PassageControll.InfoAboutWorker" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAIAIQAABEQIAAAAAAEIIAAAEBAAAIIEAAAAA=</HashCode>
+      <FileName>InfoAboutWorker.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PassageControll.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="8" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>BEZKIJBBChDA6EBQYBjwBCLAk4T6AAChAJQA4BADH4I=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PassageControll.PassageControlToColorConverter" BaseTypeListCollapsed="true">
+    <Position X="17.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PassageControlToColorConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PassageControll.PassageControlService.PassageControlClient" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AQACQgAIAUgCkAAUADAJBAIAAAAEEBEgCAAAJIDA1AI=</HashCode>
+      <FileName>Connected Services\PassageControlService\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PassageControll.Properties.Resources">
+    <Position X="12.5" Y="1.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEABAABAAAAAAAGABGAAAAQAAAQAAYACAQAAAAYA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PassageControll.Properties.Settings">
+    <Position X="17.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="PassageControll.PassageControlService.IAddWorker" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAwBAAAAAAAQAAAAAAAAAAAAAAAIACAAAAQACAAAA=</HashCode>
+      <FileName>Connected Services\PassageControlService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PassageControll.PassageControlService.IPassageControl">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AQACQgAIAUgCkAAUADAJBAIAAAAEEBEgCAAAJIDA1AI=</HashCode>
+      <FileName>Connected Services\PassageControlService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PassageControll.PassageControlService.IPassageControlChannel" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connected Services\PassageControlService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Remove.DepartmentNameToColorConvert" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DepartmentNameToColorConvert.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Remove.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="0.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AEDCBAAAAAAAAAAAAAAgCBRAlAACAACBAAAgoAABDgg=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Remove.RemoveService.RemoveClient" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAQAAiQBAAQAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connected Services\RemoveService\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Remove.Properties.Resources">
+    <Position X="6.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABAAAAAAAEABEAACARACAAAAIACAQAACAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Remove.Properties.Settings">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Remove.RemoveService.IProductionPassControlSystemService" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connected Services\RemoveService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Remove.RemoveService.IProductionPassControlSystemServiceChannel" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connected Services\RemoveService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Remove.RemoveService.IRemove">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAQAAiQBAAQAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connected Services\RemoveService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Remove.RemoveService.IRemoveChannel" Collapsed="true">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connected Services\RemoveService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
